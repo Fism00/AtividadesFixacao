@@ -75,3 +75,16 @@ function atividade4(){
     console.log('decrescente:', decrescente.sort().reverse());
 }
 
+//atividade 5 - Utilizando if com comparativo de mod o "%" para ver se é par ou impar.
+function atividade5(){
+    console.log('invertedor de par e impar')
+    let number = parseInt(prompt('Me de um numero'));
+
+    if(number % 2 == 0){
+        console.log(' seu numero é par então toma ele impar: ' + (number-1));
+        console.log('tcharam!');
+    } else {
+        console.log(' seu numero é impar então toma ele par: ' + (number+1));
+        console.log('tcharam!');
+    }
+}
