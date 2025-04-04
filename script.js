@@ -88,3 +88,8 @@ function atividade5(){
         console.log('tcharam!');
     }
 }
+
+//atividade 6 -
+function atividade6(){
+
+}
