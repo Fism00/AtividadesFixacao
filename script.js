@@ -62,7 +62,16 @@ function atividade3(){
         console.log('sua empresa ficou positivo no fim do ano!');
         }
     }
-};
+}
 
+//atividade 4 - Utilizando for para fazer as perguntas e o sort para organizar.
 
+function atividade4(){
+    let decrescente = [];
+    let o = 0;
+    for(let u = 0; u <= 3; u++){
+        decrescente[u] = parseInt(prompt('me diga um numero.'));
+    }
+    console.log('decrescente:', decrescente.sort().reverse());
+}
 
